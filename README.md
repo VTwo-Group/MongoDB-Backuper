@@ -1,4 +1,4 @@
-# MongoDB-Backuper
+# MongoDB Backuper
 MongoDB Backuper & upload on FTP.
 MongoDB database backuper. First, it is backed up, and after zipping and deleting the zipped directory, it is sent to FTP server. 
 
