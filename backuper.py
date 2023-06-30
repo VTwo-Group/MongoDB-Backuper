@@ -16,7 +16,7 @@ backup_files_limit = 5
 
 try:
     now = datetime.datetime.now()
-    date_time_postfix = now.strftime("%Y-%m-%d %H:%M:%S")
+    date_time_postfix = now.strftime("%Y.%m.%d_%H.%M.%S")
     dir_name = date_time_postfix
     zip_file_name = dir_name + '.zip'
     backup_dir = backup_base_dir_path + dir_name + '/'
