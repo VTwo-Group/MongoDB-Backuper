@@ -4,4 +4,6 @@ MongoDB database backuper. First, it is backed up, and after zipping and deletin
 Other names can be edited.
 ## Restore
 You can also use the following command to restore:
+```shell
 mongorestore -d db1 --dir /opt/backup/db1/
+```
