@@ -15,6 +15,7 @@ ftp_password = 'password'
 backup_files_limit = 5
 
 try:
+    # Needed for filename
     now = datetime.datetime.now()
     date_time_postfix = now.strftime("%Y.%m.%d_%H.%M.%S")
     dir_name = date_time_postfix
